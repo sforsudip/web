@@ -17,6 +17,10 @@
 
         }
 
+        body{
+            overflow: hidden;
+        }
+
         :root{
 
             --heading:rgb(10, 8, 8);
