@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+           box-sizing: border-box;
+        }
+
+        h2{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 3px 10px;
+            color: blueviolet;
+        }
+
+        .main{
+            background: chartreuse;
+            width: 100vw;
+            height: 100vh;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+
+            display: grid;
+            place-items: center;
+            /* text-align: center; */
+        }
+
+
+        .child{
+            width: 22w;
+            height: 50vh;
+            background: whitesmoke;
+            padding: 30px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        .inbox{
+            background: rgb(240, 240, 240);
+            width: 16vw;
+            height: 4vh;
+            margin: 3px;
+            padding: 4px;
+            border: 1px solid rgba(0, 0, 255, 0.237);
+        }
+
+        button{
+            background: rgb(62, 0, 195);
+            color: aliceblue;
+            width: 12vw;
+            height: 5vh;
+            border-style: none;
+            margin: 10px;
+        }
+
+       
+
+    
+
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="child">
+            <h2> Create an account</h2>
+            <input class="inbox" type="text" name="firstname" placeholder="First Name"><br>
+            <input class="inbox" type="text" name="lastname" placeholder="Last Name"><br>
+            <input class="inbox" type="date" name="dob" placeholder="Date Of Birth"><br>
+            <input class="inbox" type="password" name="password" placeholder="Create a Password"><br>
+            <input class="inbox" type="password" name="password" placeholder="Repeat  Password"><br><br>
+            <input type="checkbox" name="terms" > <label>I agree the <a href="#"> Terms and conditions.</a></label><br>
+
+            <button type="submit">Create Account</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
