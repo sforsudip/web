@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding: 0;
+        }
+
+
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .child{
+            width: 320px;
+            height: 320px;
+            background-color: rgb(235, 235, 235);
+            float: left;
+            margin: 20px;
+            border-radius: 9%;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+         
+            padding: 5px;
+        }
+        .child h3{
+            padding: 20px 5px;
+            text-align: center;
+        }
+        .child p{
+            padding: 1px 10px;
+        }
+        .buybtn{
+            width: 140px;
+            height: 30px;
+            background-color: blueviolet;
+            color: aliceblue;
+            border: none;
+            margin: 0 84px;
+            
+        }
+        .productimg{
+            height: 150px;
+            width: 150px;
+            margin: 0 84px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="child">
+            <h3>PRODUCT NAME</h3>
+            <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <img class="productimg" src="https://static.vecteezy.com/system/resources/thumbnails/024/841/285/small/wireless-headphone-isolated-on-transparent-background-high-quality-bluetooth-headphone-for-advertising-and-product-catalogs-generative-ai-png.png" alt="banner image"><br>
+            <button class="buybtn">Buy Now</button>
+        </div>
+
+        <div class="child">
+            <h3>PRODUCT NAME</h3>
+            <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <img class="productimg" src="https://static.vecteezy.com/system/resources/thumbnails/024/841/285/small/wireless-headphone-isolated-on-transparent-background-high-quality-bluetooth-headphone-for-advertising-and-product-catalogs-generative-ai-png.png" alt="banner image"><br>
+            <button class="buybtn">Buy Now</button>
+        </div>
+
+        <div class="child">
+            <h3>PRODUCT NAME</h3>
+            <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <img class="productimg" src="https://static.vecteezy.com/system/resources/thumbnails/024/841/285/small/wireless-headphone-isolated-on-transparent-background-high-quality-bluetooth-headphone-for-advertising-and-product-catalogs-generative-ai-png.png" alt="banner image"><br>
+            <button class="buybtn">Buy Now</button>
+        </div>
+
+        <div class="child">
+            <h3>PRODUCT NAME</h3>
+            <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <img class="productimg" src="https://static.vecteezy.com/system/resources/thumbnails/024/841/285/small/wireless-headphone-isolated-on-transparent-background-high-quality-bluetooth-headphone-for-advertising-and-product-catalogs-generative-ai-png.png" alt="banner image"><br>
+            <button class="buybtn">Buy Now</button>
+        </div>
+
+        <div class="child">
+            <h3>PRODUCT NAME</h3>
+            <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <img class="productimg" src="https://static.vecteezy.com/system/resources/thumbnails/024/841/285/small/wireless-headphone-isolated-on-transparent-background-high-quality-bluetooth-headphone-for-advertising-and-product-catalogs-generative-ai-png.png" alt="banner image"><br>
+            <button class="buybtn">Buy Now</button>
+        </div>
+
+        <div class="child">
+            <h3>PRODUCT NAME</h3>
+            <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <img class="productimg" src="https://static.vecteezy.com/system/resources/thumbnails/024/841/285/small/wireless-headphone-isolated-on-transparent-background-high-quality-bluetooth-headphone-for-advertising-and-product-catalogs-generative-ai-png.png" alt="banner image"><br>
+            <button class="buybtn">Buy Now</button>
+        </div>
+
+        <div class="child">
+            <h3>PRODUCT NAME</h3>
+            <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <img class="productimg" src="https://static.vecteezy.com/system/resources/thumbnails/024/841/285/small/wireless-headphone-isolated-on-transparent-background-high-quality-bluetooth-headphone-for-advertising-and-product-catalogs-generative-ai-png.png" alt="banner image"><br>
+            <button class="buybtn">Buy Now</button>
+        </div>
+
+        <div class="child">
+            <h3>PRODUCT NAME</h3>
+            <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <img class="productimg" src="https://static.vecteezy.com/system/resources/thumbnails/024/841/285/small/wireless-headphone-isolated-on-transparent-background-high-quality-bluetooth-headphone-for-advertising-and-product-catalogs-generative-ai-png.png" alt="banner image"><br>
+            <button class="buybtn">Buy Now</button>
+        </div>
+
+
+    </div>
+    
+
+
+
+</body>
+</html>
