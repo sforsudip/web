@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            overflow: hidden;
+        }
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: antiquewhite;
+            padding: 40px;
+        }
+
+        .child{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+
+            
+        }
+
+        #blue{
+            border: 9px solid rgb(5, 142, 206);
+            float: left;
+
+        }
+
+        #yellow{
+            border: 9px solid rgb(183, 183, 0);
+            position: relative;
+            left: 120px;
+            bottom: -50px;
+        }
+
+        #black{
+            border: 9px solid rgb(0, 0, 0);
+            position: relative;
+            left: 240px;
+            bottom: 160px;
+
+        }
+
+        #green{
+            border: 9px solid rgb(0, 186, 19);
+            position: relative;
+            left: 360px;
+            bottom: 280px;
+
+        }
+
+        #red{
+            border: 9px solid rgb(186, 25, 0);
+            position: relative;
+            left: 470px;
+            bottom: 500px;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <div id="blue" class="child"></div>
+        <div id="yellow" class="child"></div>
+        <div id="black" class="child"></div>
+        <div id="green" class="child"></div>
+        <div id="red" class="child"></div>
+    </div>
+    
+</body>
+</html>
